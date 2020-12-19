@@ -694,7 +694,11 @@ a,
 .single-faq::after {
     /* background: rgba(0, 0, 0, 0) -webkit-gradient(linear, left top, right top, from(#00e4e2), to(#81ee8e)) repeat scroll 0 0;
     background: rgba(0, 0, 0, 0) linear-gradient(to right, #00e4e2 0%, #81ee8e 100%) repeat scroll 0 0; */
-    background: #0099da;
+    /* background: #0099da; */
+    background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(4,75,130,1) 43%, rgba(0,212,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
 }
 
 .btn-2,
@@ -841,7 +845,7 @@ a,
 }
 
 .start-free-content {
-    background: rgba(0, 0, 0, 0) url("../img/bg/start-free.png") no-repeat scroll center center / cover;
+    background: rgba(0, 0, 0, 0) url("../../assets/img/start-free.png") no-repeat scroll center center / cover;
 }
 
 .blog .breadcrumb-area {
@@ -3071,5 +3075,38 @@ a,
     } 
     .begin-inside-line .begin-two{
         margin: 45px 0;
+    }
+}
+
+.manual-content h3{
+    font-size: 30px;
+}
+
+.img-manual img{
+    height: 500px;
+    position: relative;
+}
+
+.shapes-color{
+    background: rgba(0, 0, 0, 0) linear-gradient(45deg, #fe2983 0, #ff6f61 35%, #fc9e21 110%) repeat scroll 0 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 500px;
+    width: 1200px;
+    border-radius: 120px;
+    transform: translate3d(-25%,-60%,0) rotate(-125deg);
+    z-index: -1;
+}
+
+@media(max-width: 768px){
+    .shapes-color{
+        display: none;
+    }
+    .skills-area .skills-area-order-2{
+        order: 2;
+    }
+    .skills-area .skills-area-order-1{
+        order: 1;
     }
 }
