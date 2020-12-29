@@ -836,12 +836,20 @@ a,
     background: rgba(0, 0, 0, 0) url("../img/bg/welcome-main.png") no-repeat scroll center center / cover;
 }
 
+.welcome-area-admin{
+    background: rgba(0, 0, 0, 0) url("../img/bg/welcome-main-admin.png") no-repeat scroll center center / cover;
+}
+
 .seoul .welcome-area {
     background: rgba(0, 0, 0, 0) url("../img/bg/seoul-bg.jpg") no-repeat scroll center center / cover;
 }
 
 .work-slider-wrapper {
-    background: rgba(0, 0, 0, 0) url('../img/mobile-slider.png') no-repeat scroll top center;
+    background: rgba(0, 0, 0, 0) url('../img/mobile-slider-3.png') no-repeat scroll top center;
+}
+
+.work-slider-wrapper-admin{
+    background: rgba(0, 0, 0, 0) url('../img/bg/mobile-slider.png') no-repeat scroll top center;
 }
 
 .start-free-content {
